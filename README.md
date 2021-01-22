@@ -1,0 +1,2 @@
+# learngo
+getting started golang
