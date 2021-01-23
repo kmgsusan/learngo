@@ -1,9 +1,6 @@
 package main
 
-import (
-	"github.com/kmgsusan/learngo/2.4/mydict"
-)
-
+// main
 func main() {
-	dictionary := mydict.Dictionary{"first": "first word"}
+	// dictionary := mydict.Dictionary{"first": "first word"}
 }
