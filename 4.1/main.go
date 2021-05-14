@@ -26,7 +26,11 @@ func getPages() int {
 	checkErr(err)
 
 	doc.Find(".pagination").Each(func(i int, s *goquery.Selection) {
-		pages = s.Find("a").Length()
+		// pages = s.Find("a").Length()
+		// fmt.Println(s.Find("a").Html())
+		s.Find("a").Each(func(i int, s *goquery.Selection) {
+			fmt.Println(s.Attr("href"))
+		})
 	})
 	fmt.Println(pages)
 

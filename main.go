@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kmgsusan/learngo/accounts"
+	"github.com/my/repo/github.com/kmgsusan/learngo/accounts"
 )
 
 // main - mgkim
